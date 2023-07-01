@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #313131;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: cadetblue;
+}
+
+.btns {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: .4rem;
+}
+
+button {
+    height: 2.5rem;
+    cursor: pointer;
+    border: 3px solid cadetblue;
+    background-color: #313131;
+    color: cadetblue;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: cadetblue;
+    color: #313131;
+    border: 3px solid #636363;
+}
